@@ -3,9 +3,36 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+        
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>wixgen</ToolCommandName>
+        
+    <Authors>Junian Triajianto</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>junian</Owners>
+    
+    <Title>wixgen</Title>
+    <Description>Generate file list in xml format for WiX Toolset.</Description>
+    <Summary>Generate file list in xml format for WiX Toolset.</Summary>
+    <Copyright>Copyright (c) 2019</Copyright>
+    <RepositoryUrl>https://github.com/junian/wixgen</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    
+    <PackageId>wixgen</PackageId>
+    <PackageProjectUrl>https://lab.junian.net/wixgen/</PackageProjectUrl>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageTags>wix,installer,msi,xml</PackageTags>
+    <PackageLicenseUrl>https://github.com/junian/wixgen/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageVersion>$(AssemblyVersion)</PackageVersion>
+    
   </PropertyGroup>
 
   <ItemGroup>

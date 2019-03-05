@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: wixgen
+description: Generate xml-formatted list files.
+show_downloads: false
+google_analytics: UA-90418854-6

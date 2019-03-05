@@ -29,7 +29,7 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageTags>wix,installer,msi,xml</PackageTags>
-    <PackageLicenseUrl>https://github.com/junian/wixgen/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicense>https://github.com/junian/wixgen/blob/master/LICENSE</PackageLicense>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageVersion>$(AssemblyVersion)</PackageVersion>
     

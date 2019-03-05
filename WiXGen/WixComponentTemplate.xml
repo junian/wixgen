@@ -1,0 +1,7 @@
+﻿<Component Id="{0}"
+           Guid="*" DiskId="1">
+  <File Id="{1}"
+        Name="{1}"
+        Source="..\$(var.AppProject)\bin\$(var.Configuration)\{1}"
+        KeyPath="yes" />
+</Component>
